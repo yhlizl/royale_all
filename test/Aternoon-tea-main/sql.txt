@@ -1,0 +1,10 @@
+new Date()後,發現時間和正確時間相差8個小時,是時區的問題。
+
+
+解決方法如下
+
+
+ 
+
+
+//設定時區 TimeZone tz = TimeZone.getTimeZone("ETC/GMT-8"); TimeZone.setDefault(tz); //時間格式化SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss"); System.out.println(sdf.format(new Date()));
