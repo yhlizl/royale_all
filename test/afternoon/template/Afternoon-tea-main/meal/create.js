@@ -77,6 +77,9 @@ function insertdb1(event) {
                 }
             });
 
+        }else if (imagestring==""){
+            alert(" image empty!!");
+            console.log(store, memo, date, type, imagestring);
         }
         else {
             alert(" Empty input !");
@@ -130,6 +133,9 @@ function insertdb2(event) {
                 }
             });
 
+        }else if (imagestring==""){
+            alert(" image empty!!");
+            console.log(store, memo, date, type, imagestring);
         }
         else {
             alert(" Empty input !");
@@ -192,6 +198,9 @@ $('#submit1').on('click', function (event) {
                 }
             });
 
+        }else if (imagestring==""){
+            alert(" image empty!!");
+            console.log(store, memo, date, type, imagestring);
         }
         else {
             alert(" Empty input !");
@@ -250,6 +259,9 @@ $('#submit2').on('click', function (event) {
                 }
             });
 
+        }else if (imagestring==""){
+            alert(" image empty!!");
+            console.log(store, memo, date, type, imagestring);
         }
         else {
             alert(" Empty input !")

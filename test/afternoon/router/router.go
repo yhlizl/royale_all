@@ -24,6 +24,7 @@ func init() {
 	group.GET("/", api.Index)
 
 	group.POST("/checkmember", api.Checkmember)
+	group.GET("/logout", api.Logout)
 
 	group.Middleware(api.Member.MiddlewareAuth)
 	group.ALL("/meal", api.Meal)

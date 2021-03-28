@@ -125,3 +125,11 @@ func (a *memberApi) MiddlewareAuth(r *ghttp.Request) {
 		})
 	}
 }
+func Logout(r *ghttp.Request) {
+
+	r.Session.Clear()
+	v := g.View()
+	v.SetPath("template/Afternoon-tea-main")
+	r.Response.WriteTpl("index.html")
+
+}
