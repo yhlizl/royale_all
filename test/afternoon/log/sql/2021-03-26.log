@@ -1,0 +1,635 @@
+2021-03-26 23:36:56.012 [ERRO] [  4 ms] [MITD] INSERT INTO meal_info (id) VALUES ('1') 
+Error: Error 1364: Field 'image' doesn't have a default value 
+Stack:
+1.  github.com/gogf/gf/database/gdb.(*Core).writeSqlToLogger
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:945
+2.  github.com/gogf/gf/database/gdb.(*Core).DoExec
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:183
+3.  github.com/gogf/gf/database/gdb.(*Core).Exec
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:149
+4.  afternoon/app/api.(*memberApi).Register
+    /Users/royale/go/src/test/afternoon/app/api/member.go:24
+5.  github.com/gogf/gf/net/ghttp.(*middleware).Next.func1.6
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:95
+6.  github.com/gogf/gf/net/ghttp.niceCallFunc
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_func.go:46
+7.  github.com/gogf/gf/net/ghttp.(*middleware).Next.func1
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:94
+8.  github.com/gogf/gf/util/gutil.TryCatch
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/util/gutil/gutil.go:46
+9.  github.com/gogf/gf/net/ghttp.(*middleware).Next
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:47
+10. github.com/gogf/gf/net/ghttp.(*Server).ServeHTTP
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_server_handler.go:122
+
+2021-03-26 23:46:59.162 [ERRO] [  1 ms] [MITD] SHOW FULL COLUMNS FROM `user`
+Error: Error 1146: Table 'mitd_db.user' doesn't exist 
+Stack:
+1.  github.com/gogf/gf/database/gdb.(*Core).writeSqlToLogger
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:945
+2.  github.com/gogf/gf/database/gdb.(*Core).DoQuery
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:132
+3.  github.com/gogf/gf/database/gdb.(*Core).DoGetAll
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:259
+4.  github.com/gogf/gf/database/gdb.(*DriverMysql).TableFields.func1
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_driver_mysql.go:132
+5.  github.com/gogf/gf/os/gcache.(*adapterMemory).GetOrSetFunc
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/os/gcache/gcache_adapter_memory.go:218
+6.  github.com/gogf/gf/os/gcache.(*Cache).GetOrSetFunc
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/os/gcache/gcache_cache_adapter.go:67
+7.  github.com/gogf/gf/database/gdb.(*DriverMysql).TableFields
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_driver_mysql.go:121
+8.  github.com/gogf/gf/database/gdb.(*Model).getSoftFieldName
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_time.go:96
+9.  github.com/gogf/gf/database/gdb.(*Model).getSoftFieldNameCreated
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_time.go:49
+10. github.com/gogf/gf/database/gdb.(*Model).doInsertWithOption
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_insert.go:157
+11. github.com/gogf/gf/database/gdb.(*Model).Insert
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_insert.go:109
+12. github.com/gogf/gf/database/gdb.(*Core).Insert
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:449
+13. afternoon/app/api.(*memberApi).Register
+    /Users/royale/go/src/test/afternoon/app/api/member.go:25
+14. github.com/gogf/gf/net/ghttp.(*middleware).Next.func1.6
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:95
+15. github.com/gogf/gf/net/ghttp.niceCallFunc
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_func.go:46
+16. github.com/gogf/gf/net/ghttp.(*middleware).Next.func1
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:94
+17. github.com/gogf/gf/util/gutil.TryCatch
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/util/gutil/gutil.go:46
+18. github.com/gogf/gf/net/ghttp.(*middleware).Next
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:47
+19. github.com/gogf/gf/net/ghttp.(*Server).ServeHTTP
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_server_handler.go:122
+
+2021-03-26 23:46:59.163 [ERRO] [  1 ms] [MITD] SHOW FULL COLUMNS FROM `user`
+Error: Error 1146: Table 'mitd_db.user' doesn't exist 
+Stack:
+1.  github.com/gogf/gf/database/gdb.(*Core).writeSqlToLogger
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:945
+2.  github.com/gogf/gf/database/gdb.(*Core).DoQuery
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:132
+3.  github.com/gogf/gf/database/gdb.(*Core).DoGetAll
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:259
+4.  github.com/gogf/gf/database/gdb.(*DriverMysql).TableFields.func1
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_driver_mysql.go:132
+5.  github.com/gogf/gf/os/gcache.(*adapterMemory).GetOrSetFunc
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/os/gcache/gcache_adapter_memory.go:218
+6.  github.com/gogf/gf/os/gcache.(*Cache).GetOrSetFunc
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/os/gcache/gcache_cache_adapter.go:67
+7.  github.com/gogf/gf/database/gdb.(*DriverMysql).TableFields
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_driver_mysql.go:121
+8.  github.com/gogf/gf/database/gdb.(*Model).getSoftFieldName
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_time.go:96
+9.  github.com/gogf/gf/database/gdb.(*Model).getSoftFieldNameUpdated
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_time.go:70
+10. github.com/gogf/gf/database/gdb.(*Model).doInsertWithOption
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_insert.go:158
+11. github.com/gogf/gf/database/gdb.(*Model).Insert
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_insert.go:109
+12. github.com/gogf/gf/database/gdb.(*Core).Insert
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:449
+13. afternoon/app/api.(*memberApi).Register
+    /Users/royale/go/src/test/afternoon/app/api/member.go:25
+14. github.com/gogf/gf/net/ghttp.(*middleware).Next.func1.6
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:95
+15. github.com/gogf/gf/net/ghttp.niceCallFunc
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_func.go:46
+16. github.com/gogf/gf/net/ghttp.(*middleware).Next.func1
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:94
+17. github.com/gogf/gf/util/gutil.TryCatch
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/util/gutil/gutil.go:46
+18. github.com/gogf/gf/net/ghttp.(*middleware).Next
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:47
+19. github.com/gogf/gf/net/ghttp.(*Server).ServeHTTP
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_server_handler.go:122
+
+2021-03-26 23:46:59.163 [ERRO] [  0 ms] [MITD] SHOW FULL COLUMNS FROM `user`
+Error: Error 1146: Table 'mitd_db.user' doesn't exist 
+Stack:
+1.  github.com/gogf/gf/database/gdb.(*Core).writeSqlToLogger
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:945
+2.  github.com/gogf/gf/database/gdb.(*Core).DoQuery
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:132
+3.  github.com/gogf/gf/database/gdb.(*Core).DoGetAll
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:259
+4.  github.com/gogf/gf/database/gdb.(*DriverMysql).TableFields.func1
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_driver_mysql.go:132
+5.  github.com/gogf/gf/os/gcache.(*adapterMemory).GetOrSetFunc
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/os/gcache/gcache_adapter_memory.go:218
+6.  github.com/gogf/gf/os/gcache.(*Cache).GetOrSetFunc
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/os/gcache/gcache_cache_adapter.go:67
+7.  github.com/gogf/gf/database/gdb.(*DriverMysql).TableFields
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_driver_mysql.go:121
+8.  github.com/gogf/gf/database/gdb.(*Model).getSoftFieldName
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_time.go:96
+9.  github.com/gogf/gf/database/gdb.(*Model).getSoftFieldNameDeleted
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_time.go:91
+10. github.com/gogf/gf/database/gdb.(*Model).doInsertWithOption
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_insert.go:159
+11. github.com/gogf/gf/database/gdb.(*Model).Insert
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_insert.go:109
+12. github.com/gogf/gf/database/gdb.(*Core).Insert
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:449
+13. afternoon/app/api.(*memberApi).Register
+    /Users/royale/go/src/test/afternoon/app/api/member.go:25
+14. github.com/gogf/gf/net/ghttp.(*middleware).Next.func1.6
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:95
+15. github.com/gogf/gf/net/ghttp.niceCallFunc
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_func.go:46
+16. github.com/gogf/gf/net/ghttp.(*middleware).Next.func1
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:94
+17. github.com/gogf/gf/util/gutil.TryCatch
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/util/gutil/gutil.go:46
+18. github.com/gogf/gf/net/ghttp.(*middleware).Next
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:47
+19. github.com/gogf/gf/net/ghttp.(*Server).ServeHTTP
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_server_handler.go:122
+
+2021-03-26 23:46:59.164 [ERRO] [  0 ms] [MITD] SHOW FULL COLUMNS FROM `user`
+Error: Error 1146: Table 'mitd_db.user' doesn't exist 
+Stack:
+1.  github.com/gogf/gf/database/gdb.(*Core).writeSqlToLogger
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:945
+2.  github.com/gogf/gf/database/gdb.(*Core).DoQuery
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:132
+3.  github.com/gogf/gf/database/gdb.(*Core).DoGetAll
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:259
+4.  github.com/gogf/gf/database/gdb.(*DriverMysql).TableFields.func1
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_driver_mysql.go:132
+5.  github.com/gogf/gf/os/gcache.(*adapterMemory).GetOrSetFunc
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/os/gcache/gcache_adapter_memory.go:218
+6.  github.com/gogf/gf/os/gcache.(*Cache).GetOrSetFunc
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/os/gcache/gcache_cache_adapter.go:67
+7.  github.com/gogf/gf/database/gdb.(*DriverMysql).TableFields
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_driver_mysql.go:121
+8.  github.com/gogf/gf/database/gdb.(*Core).mappingAndFilterData
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core_structure.go:152
+9.  github.com/gogf/gf/database/gdb.(*Model).doMappingAndFilterForInsertOrUpdateDataMap
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_utility.go:90
+10. github.com/gogf/gf/database/gdb.(*Model).filterDataForInsertOrUpdate
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_utility.go:79
+11. github.com/gogf/gf/database/gdb.(*Model).doInsertWithOption
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_insert.go:195
+12. github.com/gogf/gf/database/gdb.(*Model).Insert
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_insert.go:109
+13. github.com/gogf/gf/database/gdb.(*Core).Insert
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:449
+14. afternoon/app/api.(*memberApi).Register
+    /Users/royale/go/src/test/afternoon/app/api/member.go:25
+15. github.com/gogf/gf/net/ghttp.(*middleware).Next.func1.6
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:95
+16. github.com/gogf/gf/net/ghttp.niceCallFunc
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_func.go:46
+17. github.com/gogf/gf/net/ghttp.(*middleware).Next.func1
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:94
+18. github.com/gogf/gf/util/gutil.TryCatch
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/util/gutil/gutil.go:46
+19. github.com/gogf/gf/net/ghttp.(*middleware).Next
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:47
+20. github.com/gogf/gf/net/ghttp.(*Server).ServeHTTP
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_server_handler.go:122
+
+2021-03-26 23:46:59.166 [ERRO] [  2 ms] [MITD] INSERT INTO `user`(`name`) VALUES('john') 
+Error: Error 1146: Table 'mitd_db.user' doesn't exist 
+Stack:
+1.  github.com/gogf/gf/database/gdb.(*Core).writeSqlToLogger
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:945
+2.  github.com/gogf/gf/database/gdb.(*Core).DoExec
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:183
+3.  github.com/gogf/gf/database/gdb.(*Core).DoInsert
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:585
+4.  github.com/gogf/gf/database/gdb.(*Model).doInsertWithOption
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_insert.go:210
+5.  github.com/gogf/gf/database/gdb.(*Model).Insert
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_insert.go:109
+6.  github.com/gogf/gf/database/gdb.(*Core).Insert
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:449
+7.  afternoon/app/api.(*memberApi).Register
+    /Users/royale/go/src/test/afternoon/app/api/member.go:25
+8.  github.com/gogf/gf/net/ghttp.(*middleware).Next.func1.6
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:95
+9.  github.com/gogf/gf/net/ghttp.niceCallFunc
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_func.go:46
+10. github.com/gogf/gf/net/ghttp.(*middleware).Next.func1
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:94
+11. github.com/gogf/gf/util/gutil.TryCatch
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/util/gutil/gutil.go:46
+12. github.com/gogf/gf/net/ghttp.(*middleware).Next
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:47
+13. github.com/gogf/gf/net/ghttp.(*Server).ServeHTTP
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_server_handler.go:122
+
+2021-03-26 23:47:03.694 [ERRO] [  0 ms] [MITD] SHOW FULL COLUMNS FROM `user`
+Error: Error 1146: Table 'mitd_db.user' doesn't exist 
+Stack:
+1.  github.com/gogf/gf/database/gdb.(*Core).writeSqlToLogger
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:945
+2.  github.com/gogf/gf/database/gdb.(*Core).DoQuery
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:132
+3.  github.com/gogf/gf/database/gdb.(*Core).DoGetAll
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:259
+4.  github.com/gogf/gf/database/gdb.(*DriverMysql).TableFields.func1
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_driver_mysql.go:132
+5.  github.com/gogf/gf/os/gcache.(*adapterMemory).GetOrSetFunc
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/os/gcache/gcache_adapter_memory.go:218
+6.  github.com/gogf/gf/os/gcache.(*Cache).GetOrSetFunc
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/os/gcache/gcache_cache_adapter.go:67
+7.  github.com/gogf/gf/database/gdb.(*DriverMysql).TableFields
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_driver_mysql.go:121
+8.  github.com/gogf/gf/database/gdb.(*Model).getSoftFieldName
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_time.go:96
+9.  github.com/gogf/gf/database/gdb.(*Model).getSoftFieldNameCreated
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_time.go:49
+10. github.com/gogf/gf/database/gdb.(*Model).doInsertWithOption
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_insert.go:157
+11. github.com/gogf/gf/database/gdb.(*Model).Insert
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_insert.go:109
+12. github.com/gogf/gf/database/gdb.(*Core).Insert
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:449
+13. afternoon/app/api.(*memberApi).Register
+    /Users/royale/go/src/test/afternoon/app/api/member.go:25
+14. github.com/gogf/gf/net/ghttp.(*middleware).Next.func1.6
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:95
+15. github.com/gogf/gf/net/ghttp.niceCallFunc
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_func.go:46
+16. github.com/gogf/gf/net/ghttp.(*middleware).Next.func1
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:94
+17. github.com/gogf/gf/util/gutil.TryCatch
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/util/gutil/gutil.go:46
+18. github.com/gogf/gf/net/ghttp.(*middleware).Next
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:47
+19. github.com/gogf/gf/net/ghttp.(*Server).ServeHTTP
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_server_handler.go:122
+
+2021-03-26 23:47:03.695 [ERRO] [  0 ms] [MITD] SHOW FULL COLUMNS FROM `user`
+Error: Error 1146: Table 'mitd_db.user' doesn't exist 
+Stack:
+1.  github.com/gogf/gf/database/gdb.(*Core).writeSqlToLogger
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:945
+2.  github.com/gogf/gf/database/gdb.(*Core).DoQuery
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:132
+3.  github.com/gogf/gf/database/gdb.(*Core).DoGetAll
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:259
+4.  github.com/gogf/gf/database/gdb.(*DriverMysql).TableFields.func1
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_driver_mysql.go:132
+5.  github.com/gogf/gf/os/gcache.(*adapterMemory).GetOrSetFunc
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/os/gcache/gcache_adapter_memory.go:218
+6.  github.com/gogf/gf/os/gcache.(*Cache).GetOrSetFunc
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/os/gcache/gcache_cache_adapter.go:67
+7.  github.com/gogf/gf/database/gdb.(*DriverMysql).TableFields
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_driver_mysql.go:121
+8.  github.com/gogf/gf/database/gdb.(*Model).getSoftFieldName
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_time.go:96
+9.  github.com/gogf/gf/database/gdb.(*Model).getSoftFieldNameUpdated
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_time.go:70
+10. github.com/gogf/gf/database/gdb.(*Model).doInsertWithOption
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_insert.go:158
+11. github.com/gogf/gf/database/gdb.(*Model).Insert
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_insert.go:109
+12. github.com/gogf/gf/database/gdb.(*Core).Insert
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:449
+13. afternoon/app/api.(*memberApi).Register
+    /Users/royale/go/src/test/afternoon/app/api/member.go:25
+14. github.com/gogf/gf/net/ghttp.(*middleware).Next.func1.6
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:95
+15. github.com/gogf/gf/net/ghttp.niceCallFunc
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_func.go:46
+16. github.com/gogf/gf/net/ghttp.(*middleware).Next.func1
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:94
+17. github.com/gogf/gf/util/gutil.TryCatch
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/util/gutil/gutil.go:46
+18. github.com/gogf/gf/net/ghttp.(*middleware).Next
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:47
+19. github.com/gogf/gf/net/ghttp.(*Server).ServeHTTP
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_server_handler.go:122
+
+2021-03-26 23:47:03.696 [ERRO] [  1 ms] [MITD] SHOW FULL COLUMNS FROM `user`
+Error: Error 1146: Table 'mitd_db.user' doesn't exist 
+Stack:
+1.  github.com/gogf/gf/database/gdb.(*Core).writeSqlToLogger
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:945
+2.  github.com/gogf/gf/database/gdb.(*Core).DoQuery
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:132
+3.  github.com/gogf/gf/database/gdb.(*Core).DoGetAll
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:259
+4.  github.com/gogf/gf/database/gdb.(*DriverMysql).TableFields.func1
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_driver_mysql.go:132
+5.  github.com/gogf/gf/os/gcache.(*adapterMemory).GetOrSetFunc
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/os/gcache/gcache_adapter_memory.go:218
+6.  github.com/gogf/gf/os/gcache.(*Cache).GetOrSetFunc
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/os/gcache/gcache_cache_adapter.go:67
+7.  github.com/gogf/gf/database/gdb.(*DriverMysql).TableFields
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_driver_mysql.go:121
+8.  github.com/gogf/gf/database/gdb.(*Model).getSoftFieldName
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_time.go:96
+9.  github.com/gogf/gf/database/gdb.(*Model).getSoftFieldNameDeleted
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_time.go:91
+10. github.com/gogf/gf/database/gdb.(*Model).doInsertWithOption
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_insert.go:159
+11. github.com/gogf/gf/database/gdb.(*Model).Insert
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_insert.go:109
+12. github.com/gogf/gf/database/gdb.(*Core).Insert
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:449
+13. afternoon/app/api.(*memberApi).Register
+    /Users/royale/go/src/test/afternoon/app/api/member.go:25
+14. github.com/gogf/gf/net/ghttp.(*middleware).Next.func1.6
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:95
+15. github.com/gogf/gf/net/ghttp.niceCallFunc
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_func.go:46
+16. github.com/gogf/gf/net/ghttp.(*middleware).Next.func1
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:94
+17. github.com/gogf/gf/util/gutil.TryCatch
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/util/gutil/gutil.go:46
+18. github.com/gogf/gf/net/ghttp.(*middleware).Next
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:47
+19. github.com/gogf/gf/net/ghttp.(*Server).ServeHTTP
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_server_handler.go:122
+
+2021-03-26 23:47:03.697 [ERRO] [  0 ms] [MITD] SHOW FULL COLUMNS FROM `user`
+Error: Error 1146: Table 'mitd_db.user' doesn't exist 
+Stack:
+1.  github.com/gogf/gf/database/gdb.(*Core).writeSqlToLogger
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:945
+2.  github.com/gogf/gf/database/gdb.(*Core).DoQuery
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:132
+3.  github.com/gogf/gf/database/gdb.(*Core).DoGetAll
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:259
+4.  github.com/gogf/gf/database/gdb.(*DriverMysql).TableFields.func1
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_driver_mysql.go:132
+5.  github.com/gogf/gf/os/gcache.(*adapterMemory).GetOrSetFunc
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/os/gcache/gcache_adapter_memory.go:218
+6.  github.com/gogf/gf/os/gcache.(*Cache).GetOrSetFunc
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/os/gcache/gcache_cache_adapter.go:67
+7.  github.com/gogf/gf/database/gdb.(*DriverMysql).TableFields
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_driver_mysql.go:121
+8.  github.com/gogf/gf/database/gdb.(*Core).mappingAndFilterData
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core_structure.go:152
+9.  github.com/gogf/gf/database/gdb.(*Model).doMappingAndFilterForInsertOrUpdateDataMap
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_utility.go:90
+10. github.com/gogf/gf/database/gdb.(*Model).filterDataForInsertOrUpdate
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_utility.go:79
+11. github.com/gogf/gf/database/gdb.(*Model).doInsertWithOption
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_insert.go:195
+12. github.com/gogf/gf/database/gdb.(*Model).Insert
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_insert.go:109
+13. github.com/gogf/gf/database/gdb.(*Core).Insert
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:449
+14. afternoon/app/api.(*memberApi).Register
+    /Users/royale/go/src/test/afternoon/app/api/member.go:25
+15. github.com/gogf/gf/net/ghttp.(*middleware).Next.func1.6
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:95
+16. github.com/gogf/gf/net/ghttp.niceCallFunc
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_func.go:46
+17. github.com/gogf/gf/net/ghttp.(*middleware).Next.func1
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:94
+18. github.com/gogf/gf/util/gutil.TryCatch
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/util/gutil/gutil.go:46
+19. github.com/gogf/gf/net/ghttp.(*middleware).Next
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:47
+20. github.com/gogf/gf/net/ghttp.(*Server).ServeHTTP
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_server_handler.go:122
+
+2021-03-26 23:47:03.697 [ERRO] [  0 ms] [MITD] INSERT INTO `user`(`name`) VALUES('john') 
+Error: Error 1146: Table 'mitd_db.user' doesn't exist 
+Stack:
+1.  github.com/gogf/gf/database/gdb.(*Core).writeSqlToLogger
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:945
+2.  github.com/gogf/gf/database/gdb.(*Core).DoExec
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:183
+3.  github.com/gogf/gf/database/gdb.(*Core).DoInsert
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:585
+4.  github.com/gogf/gf/database/gdb.(*Model).doInsertWithOption
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_insert.go:210
+5.  github.com/gogf/gf/database/gdb.(*Model).Insert
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_insert.go:109
+6.  github.com/gogf/gf/database/gdb.(*Core).Insert
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:449
+7.  afternoon/app/api.(*memberApi).Register
+    /Users/royale/go/src/test/afternoon/app/api/member.go:25
+8.  github.com/gogf/gf/net/ghttp.(*middleware).Next.func1.6
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:95
+9.  github.com/gogf/gf/net/ghttp.niceCallFunc
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_func.go:46
+10. github.com/gogf/gf/net/ghttp.(*middleware).Next.func1
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:94
+11. github.com/gogf/gf/util/gutil.TryCatch
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/util/gutil/gutil.go:46
+12. github.com/gogf/gf/net/ghttp.(*middleware).Next
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:47
+13. github.com/gogf/gf/net/ghttp.(*Server).ServeHTTP
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_server_handler.go:122
+
+2021-03-26 23:47:55.651 [DEBU] [  1 ms] [MITD] SHOW FULL COLUMNS FROM `meal_info`
+2021-03-26 23:47:55.655 [ERRO] [  3 ms] [MITD] INSERT INTO `meal_info`(`id`) VALUES('john') 
+Error: Error 1366: Incorrect integer value: 'john' for column 'id' at row 1 
+Stack:
+1.  github.com/gogf/gf/database/gdb.(*Core).writeSqlToLogger
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:945
+2.  github.com/gogf/gf/database/gdb.(*Core).DoExec
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:183
+3.  github.com/gogf/gf/database/gdb.(*Core).DoInsert
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:585
+4.  github.com/gogf/gf/database/gdb.(*Model).doInsertWithOption
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_insert.go:210
+5.  github.com/gogf/gf/database/gdb.(*Model).Insert
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_insert.go:109
+6.  github.com/gogf/gf/database/gdb.(*Core).Insert
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:449
+7.  afternoon/app/api.(*memberApi).Register
+    /Users/royale/go/src/test/afternoon/app/api/member.go:25
+8.  github.com/gogf/gf/net/ghttp.(*middleware).Next.func1.6
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:95
+9.  github.com/gogf/gf/net/ghttp.niceCallFunc
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_func.go:46
+10. github.com/gogf/gf/net/ghttp.(*middleware).Next.func1
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:94
+11. github.com/gogf/gf/util/gutil.TryCatch
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/util/gutil/gutil.go:46
+12. github.com/gogf/gf/net/ghttp.(*middleware).Next
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:47
+13. github.com/gogf/gf/net/ghttp.(*Server).ServeHTTP
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_server_handler.go:122
+
+2021-03-26 23:49:46.559 [DEBU] [  2 ms] [MITD] SHOW FULL COLUMNS FROM `meal_info`
+2021-03-26 23:49:46.560 [ERRO] [  1 ms] [MITD] INSERT INTO `meal_info`(`id`) VALUES('1') 
+Error: Error 1364: Field 'image' doesn't have a default value 
+Stack:
+1.  github.com/gogf/gf/database/gdb.(*Core).writeSqlToLogger
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:945
+2.  github.com/gogf/gf/database/gdb.(*Core).DoExec
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:183
+3.  github.com/gogf/gf/database/gdb.(*Core).DoInsert
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:585
+4.  github.com/gogf/gf/database/gdb.(*Model).doInsertWithOption
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_insert.go:210
+5.  github.com/gogf/gf/database/gdb.(*Model).Insert
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_insert.go:109
+6.  github.com/gogf/gf/database/gdb.(*Core).Insert
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:449
+7.  afternoon/app/api.(*memberApi).Register
+    /Users/royale/go/src/test/afternoon/app/api/member.go:26
+8.  github.com/gogf/gf/net/ghttp.(*middleware).Next.func1.6
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:95
+9.  github.com/gogf/gf/net/ghttp.niceCallFunc
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_func.go:46
+10. github.com/gogf/gf/net/ghttp.(*middleware).Next.func1
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:94
+11. github.com/gogf/gf/util/gutil.TryCatch
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/util/gutil/gutil.go:46
+12. github.com/gogf/gf/net/ghttp.(*middleware).Next
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:47
+13. github.com/gogf/gf/net/ghttp.(*Server).ServeHTTP
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_server_handler.go:122
+
+2021-03-26 23:50:11.680 [DEBU] [  2 ms] [MITD] SHOW FULL COLUMNS FROM `meal_info`
+2021-03-26 23:50:11.681 [ERRO] [  1 ms] [MITD] INSERT INTO `meal_info`(`id`) VALUES('1') 
+Error: Error 1364: Field 'image' doesn't have a default value 
+Stack:
+1.  github.com/gogf/gf/database/gdb.(*Core).writeSqlToLogger
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:945
+2.  github.com/gogf/gf/database/gdb.(*Core).DoExec
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:183
+3.  github.com/gogf/gf/database/gdb.(*Core).DoInsert
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:585
+4.  github.com/gogf/gf/database/gdb.(*Model).doInsertWithOption
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_insert.go:210
+5.  github.com/gogf/gf/database/gdb.(*Model).Insert
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_insert.go:109
+6.  github.com/gogf/gf/database/gdb.(*Core).Insert
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:449
+7.  afternoon/app/api.(*memberApi).Register
+    /Users/royale/go/src/test/afternoon/app/api/member.go:22
+8.  github.com/gogf/gf/net/ghttp.(*middleware).Next.func1.6
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:95
+9.  github.com/gogf/gf/net/ghttp.niceCallFunc
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_func.go:46
+10. github.com/gogf/gf/net/ghttp.(*middleware).Next.func1
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:94
+11. github.com/gogf/gf/util/gutil.TryCatch
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/util/gutil/gutil.go:46
+12. github.com/gogf/gf/net/ghttp.(*middleware).Next
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:47
+13. github.com/gogf/gf/net/ghttp.(*Server).ServeHTTP
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_server_handler.go:122
+
+2021-03-26 23:53:29.664 [DEBU] [  2 ms] [MITD] SHOW FULL COLUMNS FROM `meal_info`
+2021-03-26 23:53:29.665 [ERRO] [  0 ms] [MITD] INSERT INTO `meal_info`(`id`) VALUES('1') 
+Error: Error 1364: Field 'image' doesn't have a default value 
+Stack:
+1.  github.com/gogf/gf/database/gdb.(*Core).writeSqlToLogger
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:945
+2.  github.com/gogf/gf/database/gdb.(*Core).DoExec
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:183
+3.  github.com/gogf/gf/database/gdb.(*Core).DoInsert
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:585
+4.  github.com/gogf/gf/database/gdb.(*Model).doInsertWithOption
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_insert.go:210
+5.  github.com/gogf/gf/database/gdb.(*Model).Insert
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_insert.go:109
+6.  afternoon/app/api.(*memberApi).Register
+    /Users/royale/go/src/test/afternoon/app/api/member.go:26
+7.  github.com/gogf/gf/net/ghttp.(*middleware).Next.func1.6
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:95
+8.  github.com/gogf/gf/net/ghttp.niceCallFunc
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_func.go:46
+9.  github.com/gogf/gf/net/ghttp.(*middleware).Next.func1
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:94
+10. github.com/gogf/gf/util/gutil.TryCatch
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/util/gutil/gutil.go:46
+11. github.com/gogf/gf/net/ghttp.(*middleware).Next
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:47
+12. github.com/gogf/gf/net/ghttp.(*Server).ServeHTTP
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_server_handler.go:122
+
+2021-03-26 23:55:27.684 [DEBU] [  3 ms] [MITD] SHOW FULL COLUMNS FROM `meal_info`
+2021-03-26 23:55:27.685 [ERRO] [  0 ms] [MITD] INSERT INTO `meal_info`(`id`) VALUES('1') 
+Error: Error 1364: Field 'image' doesn't have a default value 
+Stack:
+1.  github.com/gogf/gf/database/gdb.(*Core).writeSqlToLogger
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:945
+2.  github.com/gogf/gf/database/gdb.(*Core).DoExec
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:183
+3.  github.com/gogf/gf/database/gdb.(*Core).DoInsert
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:585
+4.  github.com/gogf/gf/database/gdb.(*Model).doInsertWithOption
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_insert.go:210
+5.  github.com/gogf/gf/database/gdb.(*Model).Insert
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_insert.go:109
+6.  afternoon/app/api.(*memberApi).Register
+    /Users/royale/go/src/test/afternoon/app/api/member.go:26
+7.  github.com/gogf/gf/net/ghttp.(*middleware).Next.func1.6
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:95
+8.  github.com/gogf/gf/net/ghttp.niceCallFunc
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_func.go:46
+9.  github.com/gogf/gf/net/ghttp.(*middleware).Next.func1
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:94
+10. github.com/gogf/gf/util/gutil.TryCatch
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/util/gutil/gutil.go:46
+11. github.com/gogf/gf/net/ghttp.(*middleware).Next
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:47
+12. github.com/gogf/gf/net/ghttp.(*Server).ServeHTTP
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_server_handler.go:122
+
+2021-03-26 23:56:28.506 [DEBU] [  1 ms] [MITD] SHOW FULL COLUMNS FROM `meal_info`
+2021-03-26 23:56:28.507 [ERRO] [  0 ms] [MITD] INSERT INTO `meal_info`(`id`,`image`) VALUES('1','1') 
+Error: Error 1364: Field 'date' doesn't have a default value 
+Stack:
+1.  github.com/gogf/gf/database/gdb.(*Core).writeSqlToLogger
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:945
+2.  github.com/gogf/gf/database/gdb.(*Core).DoExec
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:183
+3.  github.com/gogf/gf/database/gdb.(*Core).DoInsert
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:585
+4.  github.com/gogf/gf/database/gdb.(*Model).doInsertWithOption
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_insert.go:210
+5.  github.com/gogf/gf/database/gdb.(*Model).Insert
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_insert.go:109
+6.  afternoon/app/api.(*memberApi).Register
+    /Users/royale/go/src/test/afternoon/app/api/member.go:26
+7.  github.com/gogf/gf/net/ghttp.(*middleware).Next.func1.6
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:95
+8.  github.com/gogf/gf/net/ghttp.niceCallFunc
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_func.go:46
+9.  github.com/gogf/gf/net/ghttp.(*middleware).Next.func1
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:94
+10. github.com/gogf/gf/util/gutil.TryCatch
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/util/gutil/gutil.go:46
+11. github.com/gogf/gf/net/ghttp.(*middleware).Next
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:47
+12. github.com/gogf/gf/net/ghttp.(*Server).ServeHTTP
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_server_handler.go:122
+
+2021-03-26 23:56:45.022 [DEBU] [  2 ms] [MITD] SHOW FULL COLUMNS FROM `meal_info`
+2021-03-26 23:56:45.023 [ERRO] [  0 ms] [MITD] INSERT INTO `meal_info`(`id`,`image`,`date`) VALUES('1','1','1') 
+Error: Error 1364: Field 'type' doesn't have a default value 
+Stack:
+1.  github.com/gogf/gf/database/gdb.(*Core).writeSqlToLogger
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:945
+2.  github.com/gogf/gf/database/gdb.(*Core).DoExec
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:183
+3.  github.com/gogf/gf/database/gdb.(*Core).DoInsert
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:585
+4.  github.com/gogf/gf/database/gdb.(*Model).doInsertWithOption
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_insert.go:210
+5.  github.com/gogf/gf/database/gdb.(*Model).Insert
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_insert.go:109
+6.  afternoon/app/api.(*memberApi).Register
+    /Users/royale/go/src/test/afternoon/app/api/member.go:26
+7.  github.com/gogf/gf/net/ghttp.(*middleware).Next.func1.6
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:95
+8.  github.com/gogf/gf/net/ghttp.niceCallFunc
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_func.go:46
+9.  github.com/gogf/gf/net/ghttp.(*middleware).Next.func1
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:94
+10. github.com/gogf/gf/util/gutil.TryCatch
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/util/gutil/gutil.go:46
+11. github.com/gogf/gf/net/ghttp.(*middleware).Next
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:47
+12. github.com/gogf/gf/net/ghttp.(*Server).ServeHTTP
+    /Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_server_handler.go:122
+
+2021-03-26 23:58:50.368 [DEBU] [  2 ms] [MITD] SHOW FULL COLUMNS FROM `member`
+2021-03-26 23:58:50.372 [DEBU] [  4 ms] [MITD] INSERT INTO `member`(`dep`,`name`,`number`) VALUES('1','`12','1231') 

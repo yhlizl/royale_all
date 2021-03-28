@@ -1,0 +1,116 @@
+2021-03-26 23:53:29.665 500 "POST http localhost:8199 /member/register HTTP/1.1" 0.004, [::1], "http://localhost:8199/member/member.html", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36"
+Stack:
+1. Error 1364: Field 'image' doesn't have a default value, INSERT INTO `meal_info`(`id`) VALUES('1') 
+
+   1).  github.com/gogf/gf/database/gdb.formatError
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_func.go:744
+   2).  github.com/gogf/gf/database/gdb.(*Core).DoExec
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:185
+   3).  github.com/gogf/gf/database/gdb.(*Core).DoInsert
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:585
+   4).  github.com/gogf/gf/database/gdb.(*Model).doInsertWithOption
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_insert.go:210
+   5).  github.com/gogf/gf/database/gdb.(*Model).Insert
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_insert.go:109
+   6).  afternoon/app/api.(*memberApi).Register
+    	/Users/royale/go/src/test/afternoon/app/api/member.go:26
+   7).  github.com/gogf/gf/net/ghttp.(*middleware).Next.func1.6
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:95
+   8).  github.com/gogf/gf/net/ghttp.niceCallFunc
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_func.go:46
+   9).  github.com/gogf/gf/net/ghttp.(*middleware).Next.func1
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:94
+   10). github.com/gogf/gf/util/gutil.TryCatch
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/util/gutil/gutil.go:46
+   11). github.com/gogf/gf/net/ghttp.(*middleware).Next
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:47
+   12). github.com/gogf/gf/net/ghttp.(*Server).ServeHTTP
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_server_handler.go:122
+
+2021-03-26 23:55:27.685 500 "POST http localhost:8199 /member/register HTTP/1.1" 0.005, [::1], "http://localhost:8199/member/member.html", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36"
+Stack:
+1. Error 1364: Field 'image' doesn't have a default value, INSERT INTO `meal_info`(`id`) VALUES('1') 
+
+   1).  github.com/gogf/gf/database/gdb.formatError
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_func.go:744
+   2).  github.com/gogf/gf/database/gdb.(*Core).DoExec
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:185
+   3).  github.com/gogf/gf/database/gdb.(*Core).DoInsert
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:585
+   4).  github.com/gogf/gf/database/gdb.(*Model).doInsertWithOption
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_insert.go:210
+   5).  github.com/gogf/gf/database/gdb.(*Model).Insert
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_insert.go:109
+   6).  afternoon/app/api.(*memberApi).Register
+    	/Users/royale/go/src/test/afternoon/app/api/member.go:26
+   7).  github.com/gogf/gf/net/ghttp.(*middleware).Next.func1.6
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:95
+   8).  github.com/gogf/gf/net/ghttp.niceCallFunc
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_func.go:46
+   9).  github.com/gogf/gf/net/ghttp.(*middleware).Next.func1
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:94
+   10). github.com/gogf/gf/util/gutil.TryCatch
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/util/gutil/gutil.go:46
+   11). github.com/gogf/gf/net/ghttp.(*middleware).Next
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:47
+   12). github.com/gogf/gf/net/ghttp.(*Server).ServeHTTP
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_server_handler.go:122
+
+2021-03-26 23:56:28.507 500 "POST http localhost:8199 /member/register HTTP/1.1" 0.003, [::1], "http://localhost:8199/member/member.html", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36"
+Stack:
+1. Error 1364: Field 'date' doesn't have a default value, INSERT INTO `meal_info`(`id`,`image`) VALUES('1','1') 
+
+   1).  github.com/gogf/gf/database/gdb.formatError
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_func.go:744
+   2).  github.com/gogf/gf/database/gdb.(*Core).DoExec
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:185
+   3).  github.com/gogf/gf/database/gdb.(*Core).DoInsert
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:585
+   4).  github.com/gogf/gf/database/gdb.(*Model).doInsertWithOption
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_insert.go:210
+   5).  github.com/gogf/gf/database/gdb.(*Model).Insert
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_insert.go:109
+   6).  afternoon/app/api.(*memberApi).Register
+    	/Users/royale/go/src/test/afternoon/app/api/member.go:26
+   7).  github.com/gogf/gf/net/ghttp.(*middleware).Next.func1.6
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:95
+   8).  github.com/gogf/gf/net/ghttp.niceCallFunc
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_func.go:46
+   9).  github.com/gogf/gf/net/ghttp.(*middleware).Next.func1
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:94
+   10). github.com/gogf/gf/util/gutil.TryCatch
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/util/gutil/gutil.go:46
+   11). github.com/gogf/gf/net/ghttp.(*middleware).Next
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:47
+   12). github.com/gogf/gf/net/ghttp.(*Server).ServeHTTP
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_server_handler.go:122
+
+2021-03-26 23:56:45.023 500 "POST http localhost:8199 /member/register HTTP/1.1" 0.004, [::1], "http://localhost:8199/member/member.html", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36"
+Stack:
+1. Error 1364: Field 'type' doesn't have a default value, INSERT INTO `meal_info`(`id`,`image`,`date`) VALUES('1','1','1') 
+
+   1).  github.com/gogf/gf/database/gdb.formatError
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_func.go:744
+   2).  github.com/gogf/gf/database/gdb.(*Core).DoExec
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:185
+   3).  github.com/gogf/gf/database/gdb.(*Core).DoInsert
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_core.go:585
+   4).  github.com/gogf/gf/database/gdb.(*Model).doInsertWithOption
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_insert.go:210
+   5).  github.com/gogf/gf/database/gdb.(*Model).Insert
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/database/gdb/gdb_model_insert.go:109
+   6).  afternoon/app/api.(*memberApi).Register
+    	/Users/royale/go/src/test/afternoon/app/api/member.go:26
+   7).  github.com/gogf/gf/net/ghttp.(*middleware).Next.func1.6
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:95
+   8).  github.com/gogf/gf/net/ghttp.niceCallFunc
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_func.go:46
+   9).  github.com/gogf/gf/net/ghttp.(*middleware).Next.func1
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:94
+   10). github.com/gogf/gf/util/gutil.TryCatch
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/util/gutil/gutil.go:46
+   11). github.com/gogf/gf/net/ghttp.(*middleware).Next
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:47
+   12). github.com/gogf/gf/net/ghttp.(*Server).ServeHTTP
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_server_handler.go:122
+

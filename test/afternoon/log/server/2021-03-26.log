@@ -1,0 +1,700 @@
+2021-03-26 00:08:12.208 19364: http server started listening on [:8199]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |    ROUTE     |               HANDLER               | MIDDLEWARE  
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /            | afternoon/router.init.0.func2       |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /hello       | afternoon/app/api.(*helloApi).Index |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /hello/index | afternoon/app/api.(*helloApi).Index |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |    ROUTE     |               HANDLER               | MIDDLEWARE  
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /            | afternoon/router.init.0.func2       |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /hello       | afternoon/app/api.(*helloApi).Index |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /hello/index | afternoon/app/api.(*helloApi).Index |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+
+2021-03-26 00:10:31.124 20484: http server started listening on [:8199]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |    ROUTE     |               HANDLER               | MIDDLEWARE  
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /            | afternoon/router.init.0.func2       |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /hello       | afternoon/app/api.(*helloApi).Index |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /hello/index | afternoon/app/api.(*helloApi).Index |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+
+2021-03-26 00:10:49.265 20822: http server started listening on [:8199]
+2021-03-26 00:10:56.450 20997: http server started listening on [:8199]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |    ROUTE     |               HANDLER               | MIDDLEWARE  
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /            | afternoon/router.init.0.func2       |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /hello       | afternoon/app/api.(*helloApi).Index |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /hello/index | afternoon/app/api.(*helloApi).Index |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+
+2021-03-26 00:11:05.688 21175: http server started listening on [:8199]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |    ROUTE     |               HANDLER               | MIDDLEWARE  
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /            | afternoon/router.init.0.func2       |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /hello       | afternoon/app/api.(*helloApi).Index |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /hello/index | afternoon/app/api.(*helloApi).Index |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+
+2021-03-26 00:11:42.869 21670: http server started listening on [:8199]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |    ROUTE     |               HANDLER               | MIDDLEWARE  
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /            | afternoon/router.init.0.func2       |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /hello       | afternoon/app/api.(*helloApi).Index |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /hello/index | afternoon/app/api.(*helloApi).Index |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+
+2021-03-26 00:11:47.357 21702: http server started listening on [:8199]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |    ROUTE     |               HANDLER               | MIDDLEWARE  
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /            | afternoon/router.init.0.func2       |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /hello       | afternoon/app/api.(*helloApi).Index |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /hello/index | afternoon/app/api.(*helloApi).Index |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+
+2021-03-26 00:18:25.921 22865: http server started listening on [:8199]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |    ROUTE     |               HANDLER               | MIDDLEWARE  
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /            | afternoon/router.init.0.func2       |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /hello       | afternoon/app/api.(*helloApi).Index |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /hello/index | afternoon/app/api.(*helloApi).Index |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+
+2021-03-26 00:18:32.721 23057: http server started listening on [:8199]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |    ROUTE     |               HANDLER               | MIDDLEWARE  
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /            | afternoon/router.init.0.func2       |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /hello       | afternoon/app/api.(*helloApi).Index |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /hello/index | afternoon/app/api.(*helloApi).Index |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+
+2021-03-26 00:26:29.381 25972: http server started listening on [:8199]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |    ROUTE     |               HANDLER               | MIDDLEWARE  
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /            | afternoon/router.init.0.func2       |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /hello       | afternoon/app/api.(*helloApi).Index |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /hello/index | afternoon/app/api.(*helloApi).Index |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+
+2021-03-26 00:26:43.501 26234: http server started listening on [:8199]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |    ROUTE     |               HANDLER               | MIDDLEWARE  
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /            | afternoon/router.init.0.func2       |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /hello       | afternoon/app/api.(*helloApi).Index |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /hello/index | afternoon/app/api.(*helloApi).Index |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+
+2021-03-26 00:29:09.590 26785: http server started listening on [:8199]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |    ROUTE     |               HANDLER               | MIDDLEWARE  
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /            | afternoon/router.init.0.func2       |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /hello       | afternoon/app/api.(*helloApi).Index |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /hello/index | afternoon/app/api.(*helloApi).Index |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+
+2021-03-26 00:29:13.052 26840: http server started listening on [:8199]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |    ROUTE     |               HANDLER               | MIDDLEWARE  
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /            | afternoon/router.init.0.func2       |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /hello       | afternoon/app/api.(*helloApi).Index |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /hello/index | afternoon/app/api.(*helloApi).Index |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |    ROUTE     |               HANDLER               | MIDDLEWARE  
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /            | afternoon/router.init.0.func2       |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /hello       | afternoon/app/api.(*helloApi).Index |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /hello/index | afternoon/app/api.(*helloApi).Index |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+
+2021-03-26 00:38:09.963 28400: http server started listening on [:8199]
+2021-03-26 00:38:13.201 28519: http server started listening on [:8199]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |    ROUTE     |               HANDLER               | MIDDLEWARE  
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /            | afternoon/router.init.0.func2       |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /hello       | afternoon/app/api.(*helloApi).Index |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /hello/index | afternoon/app/api.(*helloApi).Index |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+
+2021-03-26 00:38:52.888 28811: http server started listening on [:8199]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |    ROUTE     |               HANDLER               | MIDDLEWARE  
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /            | afternoon/router.init.0.func2       |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /hello       | afternoon/app/api.(*helloApi).Index |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /hello/index | afternoon/app/api.(*helloApi).Index |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+
+2021-03-26 01:01:58.663 30047: http server started listening on [:8199]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |    ROUTE     |               HANDLER               | MIDDLEWARE  
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /            | afternoon/router.init.0.func2       |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /hello       | afternoon/app/api.(*helloApi).Index |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /hello/index | afternoon/app/api.(*helloApi).Index |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |    ROUTE     |               HANDLER               | MIDDLEWARE  
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /            | afternoon/router.init.0.func2       |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /hello       | afternoon/app/api.(*helloApi).Index |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /hello/index | afternoon/app/api.(*helloApi).Index |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+
+2021-03-26 01:04:13.907 32218: http server started listening on [:8199]
+2021-03-26 01:10:05.228 34808: http server started listening on [:8199]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |    ROUTE     |               HANDLER               | MIDDLEWARE  
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /            | afternoon/router.init.0.func2       |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /hello       | afternoon/app/api.(*helloApi).Index |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /hello/index | afternoon/app/api.(*helloApi).Index |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |    ROUTE     |               HANDLER               | MIDDLEWARE  
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /            | afternoon/router.init.0.func2       |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /hello       | afternoon/app/api.(*helloApi).Index |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /hello/index | afternoon/app/api.(*helloApi).Index |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+
+2021-03-26 01:10:25.374 35483: http server started listening on [:8199]
+2021-03-26 01:10:48.593 [DEBU] SetServerRoot path: /Users/royale/go/src/test/afternoon/template/Afternoon-tea-main
+2021-03-26 01:10:48.595 35979: http server started listening on [:8199]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |    ROUTE     |               HANDLER               | MIDDLEWARE  
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /            | afternoon/router.init.0.func2       |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /hello       | afternoon/app/api.(*helloApi).Index |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /hello/index | afternoon/app/api.(*helloApi).Index |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+
+2021-03-26 01:11:31.867 [DEBU] SetServerRoot path: /Users/royale/go/src/test/afternoon/template/Afternoon-tea-main
+2021-03-26 01:11:31.868 36161: http server started listening on [:8199]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |    ROUTE     |               HANDLER               | MIDDLEWARE  
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /            | afternoon/router.init.0.func2       |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /hello       | afternoon/app/api.(*helloApi).Index |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /hello/index | afternoon/app/api.(*helloApi).Index |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+
+2021-03-26 22:56:09.510 [DEBU] SetServerRoot path: /Users/royale/go/src/test/afternoon/template/Afternoon-tea-main
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |    ROUTE     |               HANDLER               | MIDDLEWARE  
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /            | afternoon/router.init.0.func2       |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /hello       | afternoon/app/api.(*helloApi).Index |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /hello/index | afternoon/app/api.(*helloApi).Index |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+
+2021-03-26 22:56:09.512 36604: http server started listening on [:8199]
+2021-03-26 22:56:12.791 [DEBU] SetServerRoot path: /Users/royale/go/src/test/afternoon/template/Afternoon-tea-main
+2021-03-26 22:56:12.792 36635: http server started listening on [:8199]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |    ROUTE     |               HANDLER               | MIDDLEWARE  
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /            | afternoon/router.init.0.func2       |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /hello       | afternoon/app/api.(*helloApi).Index |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /hello/index | afternoon/app/api.(*helloApi).Index |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+
+2021-03-26 23:01:19.109 [DEBU] SetServerRoot path: /Users/royale/go/src/test/afternoon/template/Afternoon-tea-main
+2021-03-26 23:01:19.110 37859: http server started listening on [:8199]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |    ROUTE     |               HANDLER               | MIDDLEWARE  
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /            | afternoon/router.init.0.func2       |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /hello       | afternoon/app/api.(*helloApi).Index |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+  default | default | :8199   | ALL    | /hello/index | afternoon/app/api.(*helloApi).Index |             
+|---------|---------|---------|--------|--------------|-------------------------------------|------------|
+
+2021-03-26 23:16:49.951 [DEBU] SetServerRoot path: /Users/royale/go/src/test/afternoon/template/Afternoon-tea-main
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |      ROUTE       |                 HANDLER                 | MIDDLEWARE  
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | ALL    | /                | afternoon/router.init.0.func1           |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | POST   | /member/register | afternoon/app/api.(*memberApi).Register |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+
+2021-03-26 23:16:49.952 43845: http server started listening on [:8199]
+2021-03-26 23:24:08.500 [DEBU] SetServerRoot path: /Users/royale/go/src/test/afternoon/template/Afternoon-tea-main
+2021-03-26 23:24:08.501 47565: http server started listening on [:8199]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |      ROUTE       |                 HANDLER                 | MIDDLEWARE  
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | ALL    | /                | afternoon/router.init.0.func1           |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | POST   | /member/register | afternoon/app/api.(*memberApi).Register |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+
+2021-03-26 23:25:29.664 [DEBU] SetServerRoot path: /Users/royale/go/src/test/afternoon/template/Afternoon-tea-main
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |      ROUTE       |                 HANDLER                 | MIDDLEWARE  
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | ALL    | /                | afternoon/router.init.0.func1           |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | POST   | /member/register | afternoon/app/api.(*memberApi).Register |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+
+2021-03-26 23:25:29.666 47767: http server started listening on [:8199]
+2021-03-26 23:28:32.749 [DEBU] SetServerRoot path: /Users/royale/go/src/test/afternoon/template/Afternoon-tea-main
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |      ROUTE       |                 HANDLER                 | MIDDLEWARE  
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | ALL    | /                | afternoon/router.init.0.func1           |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | POST   | /member/register | afternoon/app/api.(*memberApi).Register |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+
+2021-03-26 23:28:32.751 48645: http server started listening on [:8199]
+2021-03-26 23:30:14.568 [DEBU] SetServerRoot path: /Users/royale/go/src/test/afternoon/template/Afternoon-tea-main
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |      ROUTE       |                 HANDLER                 | MIDDLEWARE  
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | ALL    | /                | afternoon/router.init.0.func1           |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | POST   | /member/register | afternoon/app/api.(*memberApi).Register |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+
+2021-03-26 23:30:14.570 49328: http server started listening on [:8199]
+2021-03-26 23:31:19.719 [DEBU] SetServerRoot path: /Users/royale/go/src/test/afternoon/template/Afternoon-tea-main
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |      ROUTE       |                 HANDLER                 | MIDDLEWARE  
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | ALL    | /                | afternoon/router.init.0.func1           |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | POST   | /member/register | afternoon/app/api.(*memberApi).Register |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+
+2021-03-26 23:31:19.720 50005: http server started listening on [:8199]
+2021-03-26 23:31:21.706 [DEBU] SetServerRoot path: /Users/royale/go/src/test/afternoon/template/Afternoon-tea-main
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |      ROUTE       |                 HANDLER                 | MIDDLEWARE  
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | ALL    | /                | afternoon/router.init.0.func1           |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | POST   | /member/register | afternoon/app/api.(*memberApi).Register |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+
+2021-03-26 23:31:21.707 50030: http server started listening on [:8199]
+2021-03-26 23:31:57.200 [DEBU] SetServerRoot path: /Users/royale/go/src/test/afternoon/template/Afternoon-tea-main
+2021-03-26 23:31:57.202 50314: http server started listening on [:8199]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |      ROUTE       |                 HANDLER                 | MIDDLEWARE  
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | ALL    | /                | afternoon/router.init.0.func1           |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | POST   | /member/register | afternoon/app/api.(*memberApi).Register |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+
+2021-03-26 23:33:04.838 [DEBU] SetServerRoot path: /Users/royale/go/src/test/afternoon/template/Afternoon-tea-main
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |      ROUTE       |                 HANDLER                 | MIDDLEWARE  
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | ALL    | /                | afternoon/router.init.0.func1           |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | POST   | /member/register | afternoon/app/api.(*memberApi).Register |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+
+2021-03-26 23:33:04.839 51327: http server started listening on [:8199]
+2021-03-26 23:33:08.407 [DEBU] SetServerRoot path: /Users/royale/go/src/test/afternoon/template/Afternoon-tea-main
+2021-03-26 23:33:08.408 51473: http server started listening on [:8199]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |      ROUTE       |                 HANDLER                 | MIDDLEWARE  
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | ALL    | /                | afternoon/router.init.0.func1           |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | POST   | /member/register | afternoon/app/api.(*memberApi).Register |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+
+2021-03-26 23:33:40.195 [DEBU] SetServerRoot path: /Users/royale/go/src/test/afternoon/template/Afternoon-tea-main
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |      ROUTE       |                 HANDLER                 | MIDDLEWARE  
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | ALL    | /                | afternoon/router.init.0.func1           |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | POST   | /member/register | afternoon/app/api.(*memberApi).Register |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+
+2021-03-26 23:33:40.196 51542: http server started listening on [:8199]
+2021-03-26 23:35:39.849 [DEBU] SetServerRoot path: /Users/royale/go/src/test/afternoon/template/Afternoon-tea-main
+2021-03-26 23:35:39.851 51960: http server started listening on [:8199]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |      ROUTE       |                 HANDLER                 | MIDDLEWARE  
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | ALL    | /                | afternoon/router.init.0.func1           |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | POST   | /member/register | afternoon/app/api.(*memberApi).Register |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+
+2021-03-26 23:35:48.184 [DEBU] SetServerRoot path: /Users/royale/go/src/test/afternoon/template/Afternoon-tea-main
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |      ROUTE       |                 HANDLER                 | MIDDLEWARE  
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | ALL    | /                | afternoon/router.init.0.func1           |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | POST   | /member/register | afternoon/app/api.(*memberApi).Register |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+
+2021-03-26 23:35:48.185 52241: http server started listening on [:8199]
+2021-03-26 23:35:55.188 [DEBU] SetServerRoot path: /Users/royale/go/src/test/afternoon/template/Afternoon-tea-main
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |      ROUTE       |                 HANDLER                 | MIDDLEWARE  
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | ALL    | /                | afternoon/router.init.0.func1           |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | POST   | /member/register | afternoon/app/api.(*memberApi).Register |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+
+2021-03-26 23:35:55.190 52387: http server started listening on [:8199]
+2021-03-26 23:35:58.423 [DEBU] SetServerRoot path: /Users/royale/go/src/test/afternoon/template/Afternoon-tea-main
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |      ROUTE       |                 HANDLER                 | MIDDLEWARE  
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | ALL    | /                | afternoon/router.init.0.func1           |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | POST   | /member/register | afternoon/app/api.(*memberApi).Register |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+
+2021-03-26 23:35:58.424 52437: http server started listening on [:8199]
+2021-03-26 23:36:03.141 [DEBU] SetServerRoot path: /Users/royale/go/src/test/afternoon/template/Afternoon-tea-main
+2021-03-26 23:36:03.142 52603: http server started listening on [:8199]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |      ROUTE       |                 HANDLER                 | MIDDLEWARE  
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | ALL    | /                | afternoon/router.init.0.func1           |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | POST   | /member/register | afternoon/app/api.(*memberApi).Register |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+
+2021-03-26 23:36:09.146 [DEBU] SetServerRoot path: /Users/royale/go/src/test/afternoon/template/Afternoon-tea-main
+2021-03-26 23:36:09.147 52754: http server started listening on [:8199]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |      ROUTE       |                 HANDLER                 | MIDDLEWARE  
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | ALL    | /                | afternoon/router.init.0.func1           |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | POST   | /member/register | afternoon/app/api.(*memberApi).Register |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+
+2021-03-26 23:36:47.521 [DEBU] SetServerRoot path: /Users/royale/go/src/test/afternoon/template/Afternoon-tea-main
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |      ROUTE       |                 HANDLER                 | MIDDLEWARE  
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | ALL    | /                | afternoon/router.init.0.func1           |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | POST   | /member/register | afternoon/app/api.(*memberApi).Register |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+
+2021-03-26 23:36:47.523 53745: http server started listening on [:8199]
+2021-03-26 23:37:40.316 [DEBU] SetServerRoot path: /Users/royale/go/src/test/afternoon/template/Afternoon-tea-main
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |      ROUTE       |                 HANDLER                 | MIDDLEWARE  
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | ALL    | /                | afternoon/router.init.0.func1           |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | POST   | /member/register | afternoon/app/api.(*memberApi).Register |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+
+2021-03-26 23:37:40.316 54035: http server started listening on [:8199]
+2021-03-26 23:46:45.545 [DEBU] SetServerRoot path: /Users/royale/go/src/test/afternoon/template/Afternoon-tea-main
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |      ROUTE       |                 HANDLER                 | MIDDLEWARE  
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | ALL    | /                | afternoon/router.init.0.func1           |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | POST   | /member/register | afternoon/app/api.(*memberApi).Register |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+
+2021-03-26 23:46:45.547 56092: http server started listening on [:8199]
+2021-03-26 23:47:04.839 [DEBU] SetServerRoot path: /Users/royale/go/src/test/afternoon/template/Afternoon-tea-main
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |      ROUTE       |                 HANDLER                 | MIDDLEWARE  
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | ALL    | /                | afternoon/router.init.0.func1           |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | POST   | /member/register | afternoon/app/api.(*memberApi).Register |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+
+2021-03-26 23:47:04.840 56334: http server started listening on [:8199]
+2021-03-26 23:47:35.871 [DEBU] SetServerRoot path: /Users/royale/go/src/test/afternoon/template/Afternoon-tea-main
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |      ROUTE       |                 HANDLER                 | MIDDLEWARE  
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | ALL    | /                | afternoon/router.init.0.func1           |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | POST   | /member/register | afternoon/app/api.(*memberApi).Register |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+
+2021-03-26 23:47:35.872 56552: http server started listening on [:8199]
+2021-03-26 23:47:46.408 [DEBU] SetServerRoot path: /Users/royale/go/src/test/afternoon/template/Afternoon-tea-main
+2021-03-26 23:47:46.409 56751: http server started listening on [:8199]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |      ROUTE       |                 HANDLER                 | MIDDLEWARE  
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | ALL    | /                | afternoon/router.init.0.func1           |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | POST   | /member/register | afternoon/app/api.(*memberApi).Register |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+
+2021-03-26 23:48:06.114 [DEBU] SetServerRoot path: /Users/royale/go/src/test/afternoon/template/Afternoon-tea-main
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |      ROUTE       |                 HANDLER                 | MIDDLEWARE  
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | ALL    | /                | afternoon/router.init.0.func1           |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | POST   | /member/register | afternoon/app/api.(*memberApi).Register |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+
+2021-03-26 23:48:06.116 57054: http server started listening on [:8199]
+2021-03-26 23:49:38.713 [DEBU] SetServerRoot path: /Users/royale/go/src/test/afternoon/template/Afternoon-tea-main
+2021-03-26 23:49:38.714 59225: http server started listening on [:8199]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |      ROUTE       |                 HANDLER                 | MIDDLEWARE  
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | ALL    | /                | afternoon/router.init.0.func1           |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | POST   | /member/register | afternoon/app/api.(*memberApi).Register |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+
+2021-03-26 23:50:08.620 [DEBU] SetServerRoot path: /Users/royale/go/src/test/afternoon/template/Afternoon-tea-main
+2021-03-26 23:50:08.622 59413: http server started listening on [:8199]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |      ROUTE       |                 HANDLER                 | MIDDLEWARE  
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | ALL    | /                | afternoon/router.init.0.func1           |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | POST   | /member/register | afternoon/app/api.(*memberApi).Register |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+
+2021-03-26 23:50:21.092 [DEBU] SetServerRoot path: /Users/royale/go/src/test/afternoon/template/Afternoon-tea-main
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |      ROUTE       |                 HANDLER                 | MIDDLEWARE  
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | ALL    | /                | afternoon/router.init.0.func1           |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | POST   | /member/register | afternoon/app/api.(*memberApi).Register |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+
+2021-03-26 23:50:21.093 59590: http server started listening on [:8199]
+2021-03-26 23:53:22.109 [DEBU] SetServerRoot path: /Users/royale/go/src/test/afternoon/template/Afternoon-tea-main
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |      ROUTE       |                 HANDLER                 | MIDDLEWARE  
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | ALL    | /                | afternoon/router.init.0.func1           |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | POST   | /member/register | afternoon/app/api.(*memberApi).Register |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+
+2021-03-26 23:53:22.110 62669: http server started listening on [:8199]
+2021-03-26 23:54:04.919 [DEBU] SetServerRoot path: /Users/royale/go/src/test/afternoon/template/Afternoon-tea-main
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |      ROUTE       |                 HANDLER                 | MIDDLEWARE  
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | ALL    | /                | afternoon/router.init.0.func1           |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | POST   | /member/register | afternoon/app/api.(*memberApi).Register |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+
+2021-03-26 23:54:04.921 62852: http server started listening on [:8199]
+2021-03-26 23:54:24.461 [DEBU] SetServerRoot path: /Users/royale/go/src/test/afternoon/template/Afternoon-tea-main
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |      ROUTE       |                 HANDLER                 | MIDDLEWARE  
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | ALL    | /                | afternoon/router.init.0.func1           |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | POST   | /member/register | afternoon/app/api.(*memberApi).Register |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+
+2021-03-26 23:54:24.462 63082: http server started listening on [:8199]
+2021-03-26 23:54:34.792 [DEBU] SetServerRoot path: /Users/royale/go/src/test/afternoon/template/Afternoon-tea-main
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |      ROUTE       |                 HANDLER                 | MIDDLEWARE  
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | ALL    | /                | afternoon/router.init.0.func1           |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | POST   | /member/register | afternoon/app/api.(*memberApi).Register |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+
+2021-03-26 23:54:34.793 63194: http server started listening on [:8199]
+2021-03-26 23:56:25.210 [DEBU] SetServerRoot path: /Users/royale/go/src/test/afternoon/template/Afternoon-tea-main
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |      ROUTE       |                 HANDLER                 | MIDDLEWARE  
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | ALL    | /                | afternoon/router.init.0.func1           |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | POST   | /member/register | afternoon/app/api.(*memberApi).Register |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+
+2021-03-26 23:56:25.210 64490: http server started listening on [:8199]
+2021-03-26 23:56:42.497 [DEBU] SetServerRoot path: /Users/royale/go/src/test/afternoon/template/Afternoon-tea-main
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |      ROUTE       |                 HANDLER                 | MIDDLEWARE  
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | ALL    | /                | afternoon/router.init.0.func1           |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | POST   | /member/register | afternoon/app/api.(*memberApi).Register |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+
+2021-03-26 23:56:42.498 65203: http server started listening on [:8199]
+2021-03-26 23:56:43.952 [DEBU] SetServerRoot path: /Users/royale/go/src/test/afternoon/template/Afternoon-tea-main
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |      ROUTE       |                 HANDLER                 | MIDDLEWARE  
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | ALL    | /                | afternoon/router.init.0.func1           |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | POST   | /member/register | afternoon/app/api.(*memberApi).Register |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+
+2021-03-26 23:56:43.953 65232: http server started listening on [:8199]
+2021-03-26 23:57:19.823 [DEBU] SetServerRoot path: /Users/royale/go/src/test/afternoon/template/Afternoon-tea-main
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |      ROUTE       |                 HANDLER                 | MIDDLEWARE  
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | ALL    | /                | afternoon/router.init.0.func1           |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | POST   | /member/register | afternoon/app/api.(*memberApi).Register |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+
+2021-03-26 23:57:19.824 65450: http server started listening on [:8199]
+2021-03-26 23:58:17.466 [DEBU] SetServerRoot path: /Users/royale/go/src/test/afternoon/template/Afternoon-tea-main
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |      ROUTE       |                 HANDLER                 | MIDDLEWARE  
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | ALL    | /                | afternoon/router.init.0.func1           |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | POST   | /member/register | afternoon/app/api.(*memberApi).Register |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+
+2021-03-26 23:58:17.468 66064: http server started listening on [:8199]
+2021-03-26 23:58:23.421 [DEBU] SetServerRoot path: /Users/royale/go/src/test/afternoon/template/Afternoon-tea-main
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |      ROUTE       |                 HANDLER                 | MIDDLEWARE  
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | ALL    | /                | afternoon/router.init.0.func1           |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | POST   | /member/register | afternoon/app/api.(*memberApi).Register |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+
+2021-03-26 23:58:23.422 66271: http server started listening on [:8199]
+2021-03-26 23:58:24.842 [DEBU] SetServerRoot path: /Users/royale/go/src/test/afternoon/template/Afternoon-tea-main
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |      ROUTE       |                 HANDLER                 | MIDDLEWARE  
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | ALL    | /                | afternoon/router.init.0.func1           |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | POST   | /member/register | afternoon/app/api.(*memberApi).Register |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+
+2021-03-26 23:58:24.844 66307: http server started listening on [:8199]
+2021-03-26 23:58:29.202 [DEBU] SetServerRoot path: /Users/royale/go/src/test/afternoon/template/Afternoon-tea-main
+2021-03-26 23:58:29.203 66472: http server started listening on [:8199]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |      ROUTE       |                 HANDLER                 | MIDDLEWARE  
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | ALL    | /                | afternoon/router.init.0.func1           |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | POST   | /member/register | afternoon/app/api.(*memberApi).Register |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+
+2021-03-26 23:58:33.652 [DEBU] SetServerRoot path: /Users/royale/go/src/test/afternoon/template/Afternoon-tea-main
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |      ROUTE       |                 HANDLER                 | MIDDLEWARE  
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | ALL    | /                | afternoon/router.init.0.func1           |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | POST   | /member/register | afternoon/app/api.(*memberApi).Register |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+
+2021-03-26 23:58:33.653 66591: http server started listening on [:8199]
+2021-03-26 23:58:37.464 [DEBU] SetServerRoot path: /Users/royale/go/src/test/afternoon/template/Afternoon-tea-main
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |      ROUTE       |                 HANDLER                 | MIDDLEWARE  
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | ALL    | /                | afternoon/router.init.0.func1           |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | POST   | /member/register | afternoon/app/api.(*memberApi).Register |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+
+2021-03-26 23:58:37.465 66701: http server started listening on [:8199]
+2021-03-26 23:59:06.058 [DEBU] SetServerRoot path: /Users/royale/go/src/test/afternoon/template/Afternoon-tea-main
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |      ROUTE       |                 HANDLER                 | MIDDLEWARE  
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | ALL    | /                | afternoon/router.init.0.func1           |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+  default | default | :8199   | POST   | /member/register | afternoon/app/api.(*memberApi).Register |             
+|---------|---------|---------|--------|------------------|-----------------------------------------|------------|
+
+2021-03-26 23:59:06.059 66866: http server started listening on [:8199]

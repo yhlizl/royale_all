@@ -1,0 +1,63 @@
+2021-03-28 01:38:28.303 500 "GET http localhost:8199 /meal/getmeal HTTP/1.1" 0.001, [::1], "", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36"
+Stack:
+1. runtime error: invalid memory address or nil pointer dereference
+   1).  github.com/gogf/gf/net/ghttp.niceCallFunc.func1
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_func.go:38
+   2).  afternoon/app/api.(*mealApi).Getmeal
+    	/Users/royale/go/src/test/afternoon/app/api/meal.go:52
+   3).  github.com/gogf/gf/net/ghttp.(*middleware).Next.func1.6
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:95
+   4).  github.com/gogf/gf/net/ghttp.niceCallFunc
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_func.go:46
+   5).  github.com/gogf/gf/net/ghttp.(*middleware).Next.func1
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:94
+   6).  github.com/gogf/gf/util/gutil.TryCatch
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/util/gutil/gutil.go:46
+   7).  github.com/gogf/gf/net/ghttp.(*middleware).Next
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:47
+   8).  github.com/gogf/gf/net/ghttp.(*Server).ServeHTTP
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_server_handler.go:122
+2. runtime error: invalid memory address or nil pointer dereference
+
+2021-03-28 01:40:50.772 500 "GET http localhost:8199 /meal/getmeal HTTP/1.1" 0.001, [::1], "", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36"
+Stack:
+1. runtime error: invalid memory address or nil pointer dereference
+   1).  github.com/gogf/gf/net/ghttp.niceCallFunc.func1
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_func.go:38
+   2).  afternoon/app/api.(*mealApi).Getmeal
+    	/Users/royale/go/src/test/afternoon/app/api/meal.go:52
+   3).  github.com/gogf/gf/net/ghttp.(*middleware).Next.func1.6
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:95
+   4).  github.com/gogf/gf/net/ghttp.niceCallFunc
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_func.go:46
+   5).  github.com/gogf/gf/net/ghttp.(*middleware).Next.func1
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:94
+   6).  github.com/gogf/gf/util/gutil.TryCatch
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/util/gutil/gutil.go:46
+   7).  github.com/gogf/gf/net/ghttp.(*middleware).Next
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:47
+   8).  github.com/gogf/gf/net/ghttp.(*Server).ServeHTTP
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_server_handler.go:122
+2. runtime error: invalid memory address or nil pointer dereference
+
+2021-03-28 01:42:48.905 500 "GET http localhost:8199 /meal/getmeal HTTP/1.1" 0.001, [::1], "", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36"
+Stack:
+1. runtime error: invalid memory address or nil pointer dereference
+   1).  github.com/gogf/gf/net/ghttp.niceCallFunc.func1
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_func.go:38
+   2).  afternoon/app/api.(*mealApi).Getmeal
+    	/Users/royale/go/src/test/afternoon/app/api/meal.go:52
+   3).  github.com/gogf/gf/net/ghttp.(*middleware).Next.func1.6
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:95
+   4).  github.com/gogf/gf/net/ghttp.niceCallFunc
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_func.go:46
+   5).  github.com/gogf/gf/net/ghttp.(*middleware).Next.func1
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:94
+   6).  github.com/gogf/gf/util/gutil.TryCatch
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/util/gutil/gutil.go:46
+   7).  github.com/gogf/gf/net/ghttp.(*middleware).Next
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_request_middleware.go:47
+   8).  github.com/gogf/gf/net/ghttp.(*Server).ServeHTTP
+    	/Users/royale/go/pkg/mod/github.com/gogf/gf@v1.15.4/net/ghttp/ghttp_server_handler.go:122
+2. runtime error: invalid memory address or nil pointer dereference
+
